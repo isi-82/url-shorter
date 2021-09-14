@@ -1,0 +1,35 @@
+body {
+  text-align: center !important;
+  padding-top: 15vh;
+}
+
+form {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.fa.fa-link.fa-lg {
+  font-size: 2.5em !important;
+  margin-bottom: 24px;
+}
+
+header {
+  margin-bottom: 3.375rem;
+}
+
+@media only screen and (max-width: 576px) {
+  body {
+    padding-top: 9.375rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  form {
+    display: flex !important;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+  }
+}
